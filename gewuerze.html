@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Hier werden Ihnen unsere Produktsorten vorgestellt">
+        <title>Shop | Produkt1</title>
+        <script src="js/lightbox.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">  
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="nav-open">
+
+        <!-- Header -->  
+        <header>
+            <div class="wrapper">
+                <div class="row meta">
+                    <div class="column col_1_3">
+                        <div class="search-container">
+                            <input class="search-bar_input" type="text" aria-label="Suche" placeholder="Suche...">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div> 
+                    <div class="column col_1_3">
+                        <a href="index.html"><img src="img/logo.png" class="center" id="logo" alt="Logo"></a>
+                    </div>
+                    <div class="column col_1_3" id="metaNav">
+                        <a href="#"><img src="img/warenkorb_icon.png" class="icon" alt="zum Einkaufswagen"></a>
+                        <a href="#"><img src="img/heart_icon.png" class="icon" alt="Zu den gespeicherten Seiten"></a>
+                        <a href="#"><img src="img/Kundenkonto_icon.png" class="icon" alt="Zum Kundenkonto"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column col_1">
+                        <a class="nav-toggle nav-open" href="#nav-open">≡ Menü öffnen</a>
+        				<a class="nav-toggle nav-closed" href="#nav-closed">≡ Menü schließen</a>
+                        <nav>
+                            <ul id="navigation"> 
+                                <li><a href="ueber_uns.html">Über Uns</a></li>
+                                <li><a href="#">Zum Shop</a>
+                                    <ul>
+                                        <li><a href="#">Produkt1</a></li>
+                                        <li><a href="#">Produkt2</a></li>
+                                        <li><a href="#">Produkt3</a></li>
+                                        <li><a href="#">Produkt4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unsere Produkte</a>
+                                    <ul>
+                                        <li><a href="#">Produkt Type 1</a></li>
+                                        <li><a href="#">Produkt Type 2</a></li>
+                                        <li><a href="#">Produkt Type 3</a></li>
+                                        <li><a href="#">Produkt Type 4</a></li>
+                                        <li><a href="#">Produkt Type 5</a></li>
+    
+                                    </ul>
+                                </li>
+                                <li><a href="#">Firmengeschenke</a></li>
+                                <li><a href="#">Soziales</a></li>
+                                <li><a href="#">Kontakt</a></li>
+                            </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+		<section class="breadcrumb">
+			<div class="wrapper">
+				<div class="row">
+					<div class="column col_1"><a href="index.html">Startseite</a> > <a href="#"> Zum Shop</a> > Produkt1</div>
+				</div>
+			</div>
+		</section> 
+
+        <!-- Unsere Bestseller -->
+         <section class="center" id="bestseller">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="column col_1">
+                        <h2>Unsere Bestseller</h2>
+                        <div class="center_slide" id="slider">
+                            <div><img src="img/firmengeschenke_produkt1.jpg" alt=""></div>
+                            <div><img src="img/produkt_1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+        <!-- Alle Podukte -->
+         <section id="alleProdukte" class="light_background">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="column col_1 center">
+                        <h2>Alle Produkte</h2>
+                        <div class="your-class">
+                            <div><img src="img/firmengeschenke_produkt1.jpg" alt=""></div>
+                            <div><img src="img/produkt_2.jpg" alt=""></div>
+                            <div><img src="img/firmengeschenke_produkt1.jpg" alt=""></div>
+                            <div><img src="img/produkt_4.jpg" alt=""></div>
+                            <div><img src="img/firmengeschenke_produkt1.jpg" alt=""></div>
+                            <div><img src="img/produkt_2.jpg" alt=""></div>
+                            <div><img src="img/firmengeschenke_produkt1.jpg" alt=""></div>
+                            <div><img src="img/produkt_4.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+             <!-- Unsere Firmenprodukte -->
+             <section class="center" id="lightbox">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="column col_1">
+                            <h2>Unsere Firmenprodukte</h2>
+                            <a class="example-image-link" href="img/firmengeschenke_bild.jpg" data-lightbox="example-set" data-title="Projekt 1"><img class="example-image" src="img/firmengeschenke_bild.jpg" alt=""></a>
+                            <a class="example-image-link" href="img/firmengeschenke_produkt1.jpg" data-lightbox="example-set" data-title="Projekt 2"><img class="example-image" src="img/firmengeschenke_produkt1.jpg" alt=""></a>
+                            <a class="example-image-link" href="img/produkt_1.jpg" data-lightbox="example-set" data-title="Projekt 3"><img class="example-image" src="img/produkt_1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="newsletter">
+            <div class="wrapper">
+                <p>Abonniert unseren Newsletter</p>
+                <div class="row">
+                    <div class="column col_1">
+                        <label for="Email_input"></label>
+                        <input type="email" id="Email_input" placeholder="E-Mail Adresse">
+                        <div class="button">Abonnieren</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="column col_1_3">
+                        <h2>Shop</h2>
+                        <ul>
+                            <li><a href="#">Produkt1</a></li>
+                            <li><a href="#">Produkt2</a></li>
+                            <li><a href="#">Produkt3</a></li>
+                            <li><a href="#">Produkt4</a></li>
+                        </ul>
+                    </div>
+                    <div class="column col_1_3">
+                        <h2>Themen</h2>
+                        <ul>
+                            <li><a href="#">Produkt Type 1</a></li>
+                            <li><a href="#">Produkt Type 2</a></li>
+                            <li><a href="#">Produkt Type 3</a></li>
+                            <li><a href="#">Produkt Type 4</a></li>
+                            <li><a href="#">Produkt Type 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="column col_1_3">
+                        <h2>Rechtliches</h2>
+                        <ul>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Datenschutz</a></li>
+                            <li><a href="#">Widerrufsbelehrung</a></li>
+                            <li><a href="#">AGB</a></li>
+                            <li><a href="#">Versand</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>   
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>     
+    </body>
+</html>

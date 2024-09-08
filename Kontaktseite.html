@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="contact form">
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="nav-open">
+        <!-- Header -->  
+        <header>
+            <div class="wrapper">
+                <div class="row meta">
+                    <div class="column col_1_3">
+                        <input class="search-bar_input" type="text" aria-label="Suche" placeholder="Suche...">
+                        <a href="#"><img src="img/search.png" alt="Suche bestätigen" class="icon button"></a>
+                    </div> 
+                    <div class="column col_1_3">
+                        <a href="index.html"><img src="img/logo.png" class="center" id="logo" alt="Logo"></a>
+                    </div>
+                    <div class="column col_1_3" id="metaNav">
+                        <a href="#"><img src="img/warenkorb_icon.png" class="icon" alt="zum Einkaufswagen"></a>
+                        <a href="#"><img src="img/heart_icon.png" class="icon" alt="Zu den gespeicherten Seiten"></a>
+                        <a href="#"><img src="img/Kundenkonto_icon.png" class="icon" alt="Zum Kundenkonto"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column col_1">
+                        <a class="nav-toggle nav-open" href="#nav-open">≡ Menü öffnen</a>
+        				<a class="nav-toggle nav-closed" href="#nav-closed">≡ Menü schließen</a>
+                        <nav>
+                            <ul id="navigation"> 
+                                <li><a href="ueber_uns.html">Über Uns</a></li>
+                                <li><a href="#">Zum Shop</a>
+                                    <ul>
+                                        <li><a href="#">Produkt1</a></li>
+                                        <li><a href="#">Produkt2</a></li>
+                                        <li><a href="#">Produkt3</a></li>
+                                        <li><a href="#">Produkt4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Unsere Produkte</a>
+                                    <ul>
+                                        <li><a href="#">Produkt Type 1</a></li>
+                                        <li><a href="#">Produkt Type 2</a></li>
+                                        <li><a href="#">Produkt Type 3</a></li>
+                                        <li><a href="#">Produkt Type 4</a></li>
+                                        <li><a href="#">Produkt Type 5</a></li>
+    
+                                    </ul>
+                                </li>
+                                <li><a href="#">Firmengeschenke</a></li>
+                                <li><a href="#">Soziales</a></li>
+                                <li><a href="#">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+		<section class="breadcrumb">
+			<div class="wrapper">
+				<div class="row">
+					<div class="column col_1"><a href="index.html">Startseite</a> > <em class="active">Kontakt</em></div>
+				</div>
+			</div>
+		</section> 
+
+        <!-- Kontaktformular -->
+         <section>
+            <div class="wrapper">
+                <h1 class="text_center">Kontakt</h1>
+                <p class="text_center">Haben Sie noch Wünsche oder Fragen? Nehmen Sie Kontakt zu uns auf!</p>
+                <div class="row">
+                    <div class="column col_1_2">
+                        <form action="formular.php" method="post">
+                            <label for="vorname">Vorname:</label>
+                            <input type="text" id="vorname" class="vorname" placeholder="Vorname" required>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" class="name" placeholder="Name" required>
+                            <label for="email">E-Mail:</label>
+                            <input type="email" id="email" class="email" placeholder="E-Mail-Adresse" required>
+                            <label for="tel_nr">Telefonnummer:</label>
+                            <input type="tel" id="tel_nr" class="tel_nr" placeholder="Telefonnummer" required><br>
+                            <textarea name="message" id="message" placeholder="Nachricht"></textarea>
+                            <input type="submit" value="Absenden" class="button">
+                        </form>
+                    </div>
+                    <div class="column col_1_2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7180.253391190911!2d7.7051850011471235!3d50.43941239971597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47be8745ed10489b%3A0x68a826aa8fc73129!2sLandshuber%20Weiher!5e0!3m2!1sen!2sde!4v1725783643760!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+         </section>
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="column col_1_3">
+                        <h2>Shop</h2>
+                        <ul>
+                            <li><a href="#">Produkt1</a></li>
+                            <li><a href="#">Produkt2</a></li>
+                            <li><a href="#">Produkt3</a></li>
+                            <li><a href="#">Produkt4</a></li>
+                        </ul>
+                    </div>
+                    <div class="column col_1_3">
+                        <h2>Themen</h2>
+                        <ul>
+                            <li><a href="#">Produkt Type 1</a></li>
+                            <li><a href="#">Produkt Type 2</a></li>
+                            <li><a href="#">Produkt Type 3</a></li>
+                            <li><a href="#">Produkt Type 4</a></li>
+                            <li><a href="#">Produkt Type 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="column col_1_3">
+                        <h2>Rechtliches</h2>
+                        <ul>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Datenschutz</a></li>
+                            <li><a href="#">Widerrufsbelehrung</a></li>
+                            <li><a href="#">AGB</a></li>
+                            <li><a href="#">Versand</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>   
+
+        
+    </body>
+</html>
