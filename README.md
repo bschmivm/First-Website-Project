@@ -1,0 +1,1 @@
+This is my first website project, which I created just for fun. This code is far from perfect and I was putting more focus on the design than its functionalities. Apart from the main page there are also a few subpages and one page with all the html-elements, which I have used to set the styling. Please not that the company is completely made up. 
